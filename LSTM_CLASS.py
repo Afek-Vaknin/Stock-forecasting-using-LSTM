@@ -313,8 +313,3 @@ def train_model():
             TrainLSTM(value)
         except Exception as e:
             print(e)
-
-
-if __name__ == "__main__":
-    # train_model()
-    LSTMPrediction("tsla")
